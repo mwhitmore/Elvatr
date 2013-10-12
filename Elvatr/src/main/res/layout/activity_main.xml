@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/elvtrOne"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/elvtrOneRank"
+            android:paddingLeft="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border" />
+
+        <TextView
+            android:id="@+id/elvtrOneRides"
+            android:paddingLeft="2dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_width="fill_parent" />
+
+        <TextView
+            android:id="@+id/elvtrOnePercent"
+            android:paddingLeft="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border" />
+
+        <Button
+            android:id="@+id/elvtrOneBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:text="@string/one"
+            android:textSize="80sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/elvtrTwo"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/border"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/elvtrTwoRank"
+            android:paddingLeft="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border" />
+
+        <TextView
+            android:id="@+id/elvtrTwoRides"
+            android:paddingLeft="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border" />
+
+        <TextView
+            android:id="@+id/elvtrTwoPercent"
+            android:paddingLeft="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border" />
+
+        <Button
+            android:id="@+id/elvtrTwoBtn"
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:text="@string/two"
+            android:textSize="80sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/elvtrThree"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/totalRides"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/border"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/elvtrThreeRank"
+            android:paddingLeft="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border" />
+
+        <TextView
+            android:id="@+id/elvtrThreeRides"
+            android:paddingLeft="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border" />
+
+        <TextView
+            android:id="@+id/elvtrThreePercent"
+            android:paddingLeft="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border" />
+
+        <Button
+            android:id="@+id/elvtrThreeBtn"
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:text="@string/three"
+            android:textSize="80sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/elvtrFour"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/totalRides"
+        android:background="@drawable/border"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/elvtrFourRank"
+            android:paddingLeft="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border" />
+
+        <TextView
+            android:id="@+id/elvtrFourRides"
+            android:paddingLeft="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border" />
+
+        <TextView
+            android:id="@+id/elvtrFourPercent"
+            android:paddingLeft="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border" />
+
+        <Button
+            android:id="@+id/elvtrFourBtn"
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:text="@string/four"
+            android:textSize="80sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/totalRides"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ccc"
+        android:gravity="center"
+        android:textSize="40sp"/>
+
+</RelativeLayout>
